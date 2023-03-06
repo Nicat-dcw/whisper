@@ -1,0 +1,26 @@
+{
+  "name": "@nicat.dcw/whisper",
+  "version": "1.0.0",
+  "description": "Open AI's Speech-to-Text API Supported Node Package.",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev":"node ./src/test",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://nicat-dcw.me",
+    
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nicat-dcw/whisper"
+  },
+
+  "keywords": ["OpenAI", "Nicat.dcw"],
+  "author": "Nicat.dcw",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.2.6"
+  }
+}
